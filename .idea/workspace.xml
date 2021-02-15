@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ae8a66f0-1d3a-45a3-9976-a5dc0774e12c" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1o6TmOT012I4T2nIIuti5q8NHav" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\mapgame-new" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\mapgame-new\client\public" />
+      <recent name="C:\mapgame-new\client\src\components" />
+      <recent name="C:\mapgame-new\client\src" />
+      <recent name="C:\mapgame-new\client\src\pages" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ae8a66f0-1d3a-45a3-9976-a5dc0774e12c" name="Default Changelist" comment="" />
+      <created>1612606198716</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612606198716</updated>
+      <workItem from="1612606199991" duration="1115000" />
+      <workItem from="1612607366364" duration="22153000" />
+      <workItem from="1612782346963" duration="4804000" />
+      <workItem from="1612887464130" duration="3867000" />
+      <workItem from="1612959058159" duration="8928000" />
+      <workItem from="1613398159872" duration="8541000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612611955755">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612611955755" />
+    <state x="260" y="278" key="FileChooserDialogImpl" timestamp="1613402816006">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613402816006" />
+    <state width="1899" height="76" key="GridCell.Tab.0.bottom" timestamp="1612688642275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="76" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612688642275" />
+    <state width="1899" height="76" key="GridCell.Tab.0.center" timestamp="1612688642275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="76" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612688642275" />
+    <state width="1899" height="76" key="GridCell.Tab.0.left" timestamp="1612688642275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="76" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612688642275" />
+    <state width="1899" height="76" key="GridCell.Tab.0.right" timestamp="1612688642275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="76" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612688642275" />
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1613398526567">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1613398526567" />
+    <state x="136" y="244" key="run.anything.popup" timestamp="1612607844131">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612607844131" />
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612615777328">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612615777328" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/pages/MainPage/MainPage.js</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/context/AuthContext.js</url>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
