@@ -2,8 +2,8 @@ import React from "react";
 
 export const Changers = (props) => {
     return (
-        <div className="changers-background" onClick={props.voteChanger}>
-            <div className="changers_change-button">
+        <div className="changers-background" >
+            <div className="changers_change-button" onClick={props.voteChanger}>
                 <div className="changers_button-text">
                     Смена голоса
                 </div>

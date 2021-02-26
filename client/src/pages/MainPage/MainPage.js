@@ -247,7 +247,6 @@ export const MainPage = () => {
         clearError()
     }, [error, message, clearError])
     useEffect(() => {
-
         if (!auth.isAdmin) {
             const interval = setInterval(() => {
                 const dataFromServer = async () => {
@@ -324,6 +323,7 @@ export const MainPage = () => {
 
     }
     const eventHandler2 = () => {
+        console.log(2)
         let blockStates = states.find((item) => {
             return item.block === resourceDisplay;
         });
@@ -351,8 +351,8 @@ export const MainPage = () => {
             changingStatesOnServer(blockStates.voteOwner, blockStates.resourceOwner, resourceDisplay);
         }
     }
-    console.log(auth.isAdmin)
     const eventHandler3 = () => {
+        console.log(3)
         let blockStates = states.find((item) => {
             return item.block === resourceDisplay;
         });

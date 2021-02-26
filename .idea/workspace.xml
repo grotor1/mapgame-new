@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae8a66f0-1d3a-45a3-9976-a5dc0774e12c" name="Default Changelist" comment="" />
+    <list default="true" id="ae8a66f0-1d3a-45a3-9976-a5dc0774e12c" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Changers.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Changers.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -26,10 +35,13 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node.exe" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -42,6 +54,11 @@
       <recent name="C:\mapgame-new\client\src" />
       <recent name="C:\mapgame-new\client\src\pages" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Unnamed" type="NodeJSConfigurationType" nameIsGenerated="true" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -57,57 +74,19 @@
       <workItem from="1612887464130" duration="3867000" />
       <workItem from="1612959058159" duration="8928000" />
       <workItem from="1613398159872" duration="8917000" />
+      <workItem from="1613493933873" duration="1383000" />
+      <workItem from="1613495345401" duration="615000" />
+      <workItem from="1613505049591" duration="53000" />
+      <workItem from="1613678290837" duration="67000" />
+      <workItem from="1613757880679" duration="204000" />
+      <workItem from="1614021055379" duration="614000" />
+      <workItem from="1614279123581" duration="223000" />
+      <workItem from="1614316512980" duration="999000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1612611955755">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="210" y="270" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1612611955755" />
-    <state x="260" y="278" key="FileChooserDialogImpl" timestamp="1613402816006">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="260" y="278" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1613402816006" />
-    <state x="345" y="421" key="Github.ShareDialog" timestamp="1613408470336">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="345" y="421" key="Github.ShareDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613408470336" />
-    <state x="338" y="221" key="Github.UntrackedFilesDialog" timestamp="1613408476437">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="338" y="221" key="Github.UntrackedFilesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1613408476437" />
-    <state width="1899" height="76" key="GridCell.Tab.0.bottom" timestamp="1612688642275">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="76" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1612688642275" />
-    <state width="1899" height="76" key="GridCell.Tab.0.center" timestamp="1612688642275">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="76" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1612688642275" />
-    <state width="1899" height="76" key="GridCell.Tab.0.left" timestamp="1612688642275">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="76" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1612688642275" />
-    <state width="1899" height="76" key="GridCell.Tab.0.right" timestamp="1612688642275">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state width="1899" height="76" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1612688642275" />
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1" timestamp="1613398526567">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="953" y="0" width="974" height="1047" key="dock-window-1/0.0.1920.1040@0.0.1920.1040" timestamp="1613398526567" />
-    <state x="136" y="244" key="run.anything.popup" timestamp="1612607844131">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="136" y="244" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612607844131" />
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1612615777328">
-      <screen x="0" y="0" width="1920" height="1040" />
-    </state>
-    <state x="143" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1612615777328" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -118,10 +97,13 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/client/src/context/AuthContext.js</url>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
