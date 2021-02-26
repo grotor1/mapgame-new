@@ -168,6 +168,11 @@
     font-size: 2vh;
 }
 
+.resourcesDisplay_resources_infinite {
+    background-color: #323232;
+    color: #cccccc;
+}
+
 .blacked {
     opacity: 0.75;
 }

@@ -13,7 +13,7 @@ export const ResourcesDisplay = (props) => {
             </div>
             {teamsResources[props.teamColor].map((item) => (
                 <div>
-                    <div className="resourcesDisplay_resources">
+                    <div className="resourcesDisplay_resources resourcesDisplay_resources_infinite">
                         {item}
                     </div>
                 </div>
