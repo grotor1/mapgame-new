@@ -1,0 +1,258 @@
+* {
+    box-sizing: border-box;
+}
+
+.map-background {
+    background-color: #f4f4f4;
+    display: block;
+    float: left;
+    width: 76%;
+    margin-left: 2%;
+    height: 100%;
+    text-align: center;
+}
+
+.map-full {
+    margin-top: 2%;
+    height: 92%;
+    width: 92%;
+    padding-right: 2%;
+    text-align: center;
+    color: #f4f4f4;
+}
+
+.logout {
+    display: flex;
+    margin-left: 1%;
+    margin-top: -3%;
+    width: 6%;
+    height: 7.5%;
+    color: #f4f4f4;
+    background-color: #323232;
+    text-align: center;
+    font-size: 2vh;
+    z-index: 1000000;
+}
+
+.logout-text {
+    margin: 0 auto;
+    align-self: center;
+}
+
+.map {
+    margin-top: 2%;
+    height: 92vh;
+}
+
+.red {
+    fill: #FF0000;
+}
+
+.yellow {
+    fill: #FFFF66;
+}
+
+.blue {
+    fill: #0000CC;
+}
+
+.black {
+    fill: #333333;
+}
+
+.cls-1 {
+    stroke: #fff;
+    stroke-width: 2px;
+}
+
+.grey {
+    fill: #ccc;
+}
+
+
+.progress-background {
+    background-color: #f4f4f4;
+    float: right;
+    display: block;
+    width: 100%;
+    overflow: auto;
+    height: 40%;
+    padding-bottom: 1%;
+}
+
+.progress_state-name {
+    float: left;
+    display: block;
+    margin-bottom: 5%;
+    font-size: 2.5vh;
+}
+
+.progress_state-votes {
+    margin-right: 7%;
+    display: block;
+    margin-bottom: 5%;
+    float: right;
+    font-size: 2.5vh;
+}
+
+.progress {
+    display: inline-block;
+    margin-left: 5%;
+    margin-top: 3%;
+    margin-bottom: 2%;
+    width: 90%;
+}
+
+.task-background {
+    background-color: #f4f4f4;
+    display: block;
+    float: right;
+    width: 100%;
+    overflow: auto;
+    height: 40%;
+}
+
+.task_state-name {
+    margin: 3% 5% 0;
+    font-size: 2.5vh;
+}
+
+.task_task {
+    margin: 3% 5% 0;
+    font-size: 1.5vh;
+}
+
+.changers-background {
+    background-color: #f4f4f4;
+    display: block;
+    float: right;
+    width: 100%;
+    overflow: auto;
+    height: 19.75%;
+    padding-bottom: 2%;
+}
+
+.changers_change-button {
+    background-color: #323232;
+    display: flex;
+    float: left;
+    width: 44%;
+    height: 50%;
+    margin-left: 4%;
+    margin-top: 10%;
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 1.9vh;
+    padding: 10% 0;
+}
+
+.changers_button-text {
+    margin: 0 auto;
+    align-self: center;
+}
+
+.timer-background {
+    background-color: #f4f4f4;
+    display: block;
+    float: right;
+    width: 100%;
+    overflow: auto;
+    height: 19.75%;
+    padding-bottom: 4%;
+}
+
+.timer_use-button {
+    background-color: #323232;
+    display: flex;
+    float: left;
+    width: 44%;
+    height: 50%;
+    margin-left: 4%;
+    margin-top: 10%;
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 2vh;
+    padding: 5% 0;
+}
+
+.timer_button-text {
+    margin: 0 auto;
+    align-self: center;
+}
+
+.timer-name {
+    margin: 3% 5% 0;
+    font-size: 2.5vh;
+}
+
+.timer-count {
+    margin: 4% 37% 0;
+    font-size: 5vh;
+}
+
+
+.resourcesDisplay_background {
+    background-color: #f4f4f4;
+    display: block;
+    float: left;
+    width: 22.5%;
+    height: 92vh;
+    margin-left: 2%;
+    margin-bottom: 2%;
+}
+
+.resourcesDisplay_state-name {
+    margin: 3% 5% 0;
+    font-size: 2.5vh;
+}
+
+.resourcesDisplay_resources {
+    margin: 3% 5% 0;
+    font-size: 2vh;
+}
+
+.resourcesDisplay_resources_infinite {
+    background-color: #323232;
+    color: #cccccc;
+}
+
+.blacked {
+    opacity: 0.75;
+}
+
+.resources {
+    margin-top: 2.5%;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #ccc;
+    height: 50px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+}
+
+.first-item{
+    margin-top: 0px;
+}
+
+.scrollbar-container{
+    right: -2%;
+    width: 18%;
+}
+
+.ps__rail-y{
+    display: none!important;
+}

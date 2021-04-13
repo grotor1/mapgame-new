@@ -6,7 +6,16 @@ const schema = new Schema({
         required: true,
         unique: true
     },
-    sessionData: {
+    sessionTimer: {
+        type: Number,
+        required: true,
+        unique: false
+    },
+    sessionType: {
+        type: String,
+        required: false
+    },
+    sessionDataUsa: {
         type: [{
             resourceOwner: String,
             voteOwner: String,
@@ -16,7 +25,18 @@ const schema = new Schema({
             task: String,
             resources: String
         }],
-        required: true
+        required: false
+    },
+    sessionDataRussia: {
+        type: [{
+            resourceOwner: String,
+            voteOwner: String,
+            state: String,
+            block: String,
+            task: String,
+            resources: String
+        }],
+        required: false
     }
 })
 

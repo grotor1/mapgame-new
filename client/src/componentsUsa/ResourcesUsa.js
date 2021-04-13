@@ -1,5 +1,5 @@
 import React from 'react';
-import {teamsResources} from "./db";
+import {teamsResources} from "./dbUsa";
 
 export const ResourcesDisplay = (props) => {
     let teamName = props.teamName;
@@ -20,7 +20,7 @@ export const ResourcesDisplay = (props) => {
             ))}
             {states.map((item) =>
                 <div>
-                    <div className="resourcesDisplay_resources">
+                    <div className="resourcesDisplay_resources" onClick={event => props.delete(event, event.target, item.block)}>
                         {item.resources}
                     </div>
                 </div>

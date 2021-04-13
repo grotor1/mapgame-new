@@ -31,6 +31,7 @@
     background-color: #323232;
     text-align: center;
     font-size: 2vh;
+    z-index: 1000000;
 }
 
 .logout-text {
@@ -61,7 +62,7 @@
 
 .cls-1 {
     stroke: #fff;
-    stroke-width: 2px;
+    stroke-width: 3px;
 }
 
 .grey {
@@ -73,8 +74,8 @@
     background-color: #f4f4f4;
     float: right;
     display: block;
-    margin-right: 2%;
-    width: 18%;
+    width: 100%;
+    overflow: auto;
     height: 40%;
     padding-bottom: 1%;
 }
@@ -106,8 +107,8 @@
     background-color: #f4f4f4;
     display: block;
     float: right;
-    margin-right: 2%;
-    width: 18%;
+    width: 100%;
+    overflow: auto;
     height: 40%;
 }
 
@@ -125,9 +126,10 @@
     background-color: #f4f4f4;
     display: block;
     float: right;
-    margin-right: 2%;
-    width: 18%;
+    width: 100%;
+    overflow: auto;
     height: 19.75%;
+    padding-bottom: 2%;
 }
 
 .changers_change-button {
@@ -140,13 +142,54 @@
     margin-top: 10%;
     color: #f4f4f4;
     text-align: center;
-    font-size: 2vh;
+    font-size: 1.9vh;
+    padding: 10% 0;
 }
 
 .changers_button-text {
     margin: 0 auto;
     align-self: center;
 }
+
+.timer-background {
+    background-color: #f4f4f4;
+    display: block;
+    float: right;
+    width: 100%;
+    overflow: auto;
+    height: 19.75%;
+    padding-bottom: 4%;
+}
+
+.timer_use-button {
+    background-color: #323232;
+    display: flex;
+    float: left;
+    width: 44%;
+    height: 50%;
+    margin-left: 4%;
+    margin-top: 10%;
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 2vh;
+    padding: 5% 0;
+}
+
+.timer_button-text {
+    margin: 0 auto;
+    align-self: center;
+}
+
+.timer-name {
+    margin: 3% 5% 0;
+    font-size: 2.5vh;
+}
+
+.timer-count {
+    margin: 4% 37% 0;
+    font-size: 5vh;
+}
+
 
 .resourcesDisplay_background {
     background-color: #f4f4f4;
@@ -183,4 +226,33 @@
 
 .hidden {
     visibility: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+
+::-webkit-scrollbar-thumb {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #ccc;
+    height: 50px;
+}
+
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    background-color: #F5F5F5;
+}
+
+.first-item{
+    margin-top: 0px;
+}
+
+.scrollbar-container{
+    right: -2%;
+    width: 18%;
+}
+
+.ps__rail-y{
+    display: none!important;
 }

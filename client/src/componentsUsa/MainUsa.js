@@ -1,11 +1,11 @@
 // import React, {useEffect, useState} from 'react';
 // import 'whatwg-fetch';
-// import {Map} from './Map';
+// import {MapRussia} from './MapRussia';
 // import "../App.css"
-// import {Progress} from "./Progress";
-// import {Task} from "./Task";
+// import {ProgressRussia} from "./ProgressRussia";
+// import {TaskRussia} from "./TaskRussia";
 // import {ResourcesDisplay} from "./Resources";
-// import {Changers} from "./Changers";
+// import {ChangersRussia} from "./ChangersRussia";
 //
 // const useStatesFromServer = () =>{
 //     const [states, setStates] =  useState([
@@ -634,14 +634,14 @@
 //
 //             <div>
 //                 <div className="map">
-//                     <Map currentTap={this.state.resourceDisplay} votes={this.state.states.map((item) => {
+//                     <MapRussia currentTap={this.state.resourceDisplay} votes={this.state.states.map((item) => {
 //                         return {voteOwner: item.voteOwner, block: item.block}
 //                     })} eventReturn={eventHandler}/>
-//                     <Progress votes={this.state.states.map((item) => {
+//                     <ProgressRussia votes={this.state.states.map((item) => {
 //                         return {voteOwner: item.voteOwner}
 //                     })}/>
-//                     <Changers voteChanger={eventHandler2} resourceChanger={eventHandler3}/>
-//                     <Task states={this.state.states} block={this.state.resourceDisplay}/>
+//                     <ChangersRussia voteChanger={eventHandler2} resourceChanger={eventHandler3}/>
+//                     <TaskRussia states={this.state.states} block={this.state.resourceDisplay}/>
 //                 </div>
 //                 <div className="resources">
 //                     <ResourcesDisplay teamName="Республиканцы" teamColor="red"

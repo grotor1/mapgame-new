@@ -1,10 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ae8a66f0-1d3a-45a3-9976-a5dc0774e12c" name="Default Changelist" comment="">
+    <list default="true" id="ae8a66f0-1d3a-45a3-9976-a5dc0774e12c" name="Default Changelist" comment="Adding Russia, timer">
+      <change afterPath="$PROJECT_DIR$/client/src/componentsRussia/MapRussia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/componentsRussia/ProgressRussia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/componentsRussia/ResourcesRussia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/componentsRussia/SidebarRussia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/componentsRussia/TaskRussia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/componentsRussia/TimerRussia.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/componentsUsa/ChangersUsa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/componentsUsa/SidebarUsa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/componentsUsa/TimerUsa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/componentsUsa/dbUsa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/MainPageUsa/MainPageUsa.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/MainPageUsa/MainPageUsa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/models/initialStateRussia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/components/Resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Resources.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Changers.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/componentsRussia/ChangersRussia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Main.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/componentsUsa/MainUsa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Map.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/componentsUsa/MapUsa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Progress.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/componentsUsa/ProgressUsa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Resources.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/componentsUsa/ResourcesUsa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/componentsUsa/TaskUsa.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/db.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/componentsRussia/dbRussia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/context/AuthContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/context/AuthContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/hooks/auth.hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/hooks/auth.hook.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/AuthPage/AuthPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/AuthPage/AuthPage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPageRussia/MainPageRussia.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/MainPage/MainPage.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/MainPageRussia/MainPageRussia.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/models/Session.js" beforeDir="false" afterPath="$PROJECT_DIR$/models/Session.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/auth.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/auth.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/states.routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/states.routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +54,14 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="1o6TmOT012I4T2nIIuti5q8NHav" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -32,15 +72,17 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node.exe" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Pictures/Map/worldRussiaSplitLow.svg" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="settings.nodejs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\vvaru\WebstormProjects\mapgame-new\client\src\pages" />
+      <recent name="C:\Users\vvaru\WebstormProjects\mapgame-new\client\src\componentsRussia" />
       <recent name="C:\mapgame-new" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -76,7 +118,23 @@
       <workItem from="1613757880679" duration="204000" />
       <workItem from="1614021055379" duration="614000" />
       <workItem from="1614279123581" duration="223000" />
-      <workItem from="1614316512980" duration="1939000" />
+      <workItem from="1614316512980" duration="3496000" />
+      <workItem from="1616272407559" duration="1206000" />
+      <workItem from="1616522020955" duration="37000" />
+      <workItem from="1616522096530" duration="17851000" />
+      <workItem from="1617274636417" duration="1294000" />
+      <workItem from="1617295687199" duration="107000" />
+      <workItem from="1617295873087" duration="847000" />
+      <workItem from="1617478488312" duration="36000" />
+      <workItem from="1617816302876" duration="8354000" />
+      <workItem from="1617876517614" duration="4185000" />
+      <workItem from="1617896942165" duration="3919000" />
+      <workItem from="1617993162609" duration="2205000" />
+      <workItem from="1617998039591" duration="969000" />
+      <workItem from="1617999037640" duration="1185000" />
+      <workItem from="1618155502578" duration="12343000" />
+      <workItem from="1618232048518" duration="7827000" />
+      <workItem from="1618291024809" duration="322000" />
     </task>
     <task id="LOCAL-00001" summary="minor styling changes, fixing changes buttons">
       <created>1614317939215</created>
@@ -85,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1614317939215</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="minor styling changes, fixing changes buttons">
+      <created>1614324067651</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614324067651</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -93,18 +158,33 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="minor styling changes, fixing changes buttons" />
-    <option name="LAST_COMMIT_MESSAGE" value="minor styling changes, fixing changes buttons" />
+    <MESSAGE value="Adding Russia, timer" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Russia, timer" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/client/src/pages/MainPage/MainPage.js</url>
+          <url>file://$PROJECT_DIR$/client/src/pages/MainPageUsa/MainPageUsa.js</url>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/client/src/context/AuthContext.js</url>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/componentsUsa/TimerUsa.js</url>
+          <line>58</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/client/src/pages/MainPageRussia/MainPageRussia.js</url>
+          <line>15</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/models/initialStateRussia.js</url>
+          <option name="timeStamp" value="6" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

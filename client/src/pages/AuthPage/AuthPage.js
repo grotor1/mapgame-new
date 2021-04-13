@@ -11,10 +11,12 @@ export const AuthPage = () => {
     const [form, setForm] = useState({
         adminPassword: "",
         sessionCode: "",
+        sessionType: "Russia",
         isAdmin: false
     })
     const changeHandler = event => {
         setForm({...form, [event.target.name]: event.target.value})
+        console.log(form)
     }
     const changeHandler1 = () => {
         if (form.isAdmin) setForm({...form, isAdmin: false})
@@ -35,7 +37,7 @@ export const AuthPage = () => {
         try {
             const data = await request("api/auth/login", "POST", {...form})
             console.log(data)
-            auth.login(data.token, data._id_session, data.isAdmin)
+            auth.login(data.token, data._id_session, data.isAdmin, data.sessionType)
         } catch (e) {
         }
     }
@@ -66,11 +68,17 @@ export const AuthPage = () => {
                                     onChange={changeHandler}
                                 />
                             </div>
+                            <div className="input-container another-margin">
+                                <select value={form.sessionType} name="sessionType" onChange={changeHandler}>
+                                    <option selected value="Russia">Россия</option>
+                                    <option value="Usa">Сша</option>
+                                </select>
+                            </div>
                             <div
                                 className="login-wrapper__content__right-section__login-content__button hvr-grow-shadow"
                                 onClick={registerHandler}
                             >
-                                <p>Войти</p>
+                                <p>Создать</p>
                             </div>
                         </div>
                     </div>

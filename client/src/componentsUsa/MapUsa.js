@@ -1,7 +1,7 @@
 import React, {useContext} from "react";
 import {AuthContext} from "../context/AuthContext";
 
-export const Map = (props) => {
+export const MapUsa = (props) => {
     const auth = useContext(AuthContext);
     if (props.currentTap !== "") {
         const unBlackedElement = document.getElementsByClassName("blacked");

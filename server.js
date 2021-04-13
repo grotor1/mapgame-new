@@ -23,15 +23,15 @@ app.get('/', (req, res) => {
 
 const PORT = process.env.PORT || config.get('port') || 5000
 
-async function start () {
-    try{
+async function start() {
+    try {
         await mongoose.connect(config.get('mongoUri'), {
             useNewUrlParser: true,
             useUnifiedTopology: true,
             useCreateIndex: true
         })
         app.listen(PORT, () => console.log(`On air. Port: ${PORT}`))
-    }catch (e) {
+    } catch (e) {
         console.log('Error', e.message)
         process.exit(1);
     }

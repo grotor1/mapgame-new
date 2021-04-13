@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Changers = (props) => {
+export const ChangersRussia = (props) => {
     return (
         <div className="changers-background" >
             <div className="changers_change-button" onClick={props.voteChanger}>

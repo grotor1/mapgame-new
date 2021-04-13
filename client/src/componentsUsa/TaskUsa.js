@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Task = (props) =>{
+export const TaskUsa = (props) =>{
         return (
             <div className="task-background">
                 {props.states.filter((item) =>

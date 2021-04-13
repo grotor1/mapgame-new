@@ -1,7 +1,7 @@
 import React from "react";
 import {ProgressBarLine} from "react-progressbar-line";
 
-export const Progress = (props) => {
+export const ProgressUsa = (props) => {
     let red = props.votes.filter((item) => {
         return item.voteOwner === "red"
     }).length * 2;
